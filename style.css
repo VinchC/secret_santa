@@ -1,0 +1,128 @@
+:root {
+    --primary-color: rgb(2, 2, 117);
+    --secondary-color: white;
+    --spacing: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+    color: black;
+    font-size: 1.25rem;
+}
+
+header {
+    display: flex;
+    justify-items: center;
+}
+
+header img {
+    width: 80%;
+    margin: auto;
+}
+
+#our_king img, #our_kingdom img, #venez img {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    margin: calc(var(--spacing)*2) auto calc(var(--spacing)*2) auto;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    height: calc(var(--spacing)*4);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: calc(var(--spacing)*4);
+}
+
+#game {
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;    
+    width: 100%;
+}
+
+.component {
+    width: 20rem;
+    height: 35rem;
+    display: grid;
+    justify-content: space-evenly;    
+    grid-template-rows: 3fr 1fr 2fr 1fr;
+    box-shadow: 5px 5px 5px 5px var(--primary-color);
+    padding: var(--spacing);
+    margin: var(--spacing);
+}
+
+.component img {
+    max-width: 16rem;
+    max-height: 16rem;
+    width: 100%;
+    margin: auto;
+}
+
+.component h2 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-left: auto;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    background-color: rgb(236, 241, 241);
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    margin: 0.25rem 0 0.25rem 0;
+    padding: 0.25rem;
+}
+
+#submit {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: calc(var(--spacing)*4);
+}
+
+footer p {
+    color: var(--secondary-color);
+}
+
