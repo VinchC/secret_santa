@@ -67,19 +67,19 @@ h1, h2 {
 }
 
 .component {
-    width: 20rem;
+    width: 15rem;
     height: 35rem;
     display: grid;
     justify-content: space-evenly;    
     grid-template-rows: 3fr 1fr 2fr 1fr;
     box-shadow: 5px 5px 5px 5px var(--primary-color);
     padding: var(--spacing);
-    margin: var(--spacing);
+    margin: calc(var(--spacing)/2);
 }
 
 .component img {
-    max-width: 16rem;
-    max-height: 16rem;
+    max-width: 13rem;
+    max-height: 13rem;
     width: 100%;
     margin: auto;
 }
